@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>远见·企业出海助手 | 小家电出海合规工作台</title>
+<meta name="description" content="面向中国小家电出海的企业研究档案、产品登记、法规合规初筛、HS 候选与税费阶段测算、政策新闻雷达、千问辅助建议与综合报告工作台。静态页面，数据快照见页面内说明。">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/v2.css"></head>
+<body>
+<div class="app-shell">
+
+  <header class="topbar no-print">
+    <div class="brand">
+      <span class="brand-mark">远</span>
+      <span><strong>远见 · 企业出海助手</strong><small>小家电出海合规工作台</small></span>
+    </div>
+    <div class="topbar-meta">
+      <span class="snapshot" id="snapshotDot"><i></i>数据快照 2026-11-04</span>
+      <select id="projSelect" class="proj-select" aria-label="选择项目"></select>
+      <button class="tool-btn" id="btnNewProj" type="button" title="新建项目">新建</button>
+      <button class="tool-btn" id="btnRenameProj" type="button" title="重命名当前项目">改名</button>
+      <button class="tool-btn" id="btnDelProj" type="button" title="删除当前项目（本机存储）">删除</button>
+      <button class="tool-btn" id="lnkAbout" type="button">数据说明</button>
+    </div>
+  </header>
+
+  <aside class="sidebar no-print">
+    <nav id="sideNav" aria-label="流程步骤"><button class="nav-item" data-tab="home"><span>◈</span><b>出海工作台</b></button><button class="nav-item" data-tab="research"><span>研</span><b>产品研究档案</b></button><button class="nav-item" data-tab="documents"><span>法</span><b>政策原文</b></button>
+      <button class="nav-item active" data-tab="product"><span>1</span><b>项目与产品</b><em class="dot" id="dot-product"></em></button>
+      <button class="nav-item" data-tab="compliance"><span>2</span><b>合规初筛</b><em class="dot" id="dot-compliance"></em></button>
+      <button class="nav-item" data-tab="tax"><span>3</span><b>HS 与税费</b><em class="dot" id="dot-tax"></em></button>
+      <button class="nav-item" data-tab="news"><span>4</span><b>新闻雷达</b><em class="sub">可选</em><em class="dot" id="dot-news"></em></button>
+      <button class="nav-item" data-tab="qianwen"><span>5</span><b>千问建议</b><em class="dot" id="dot-qianwen"></em></button>
+      <button class="nav-item" data-tab="report"><span>6</span><b>综合报告</b><em class="dot" id="dot-report"></em></button>
+    </nav>
+    <div class="sidebar-note">
+      <p><b id="projMiniName">当前项目</b></p>
+      <p class="subhint" id="saveHint" style="margin:0">项目保存在本机浏览器</p>
+      <p style="margin:9px 0 0"><button class="text-button" id="btnExportJsonMini" type="button">导出项目 JSON</button></p>
+    </div>
+  </aside>
+
+  <main class="workspace"><section class="view" id="view-home"><div class="v2-cover"><p class="eyebrow">远见 · 企业出海助手 / 第二版</p><h1>让每一款小家电，<br>都有清晰的出海准备路径。</h1><p>从看懂产品，到核对目标市场要求；从税费测算，到追踪变化与形成行动建议。</p><button class="btn" data-start="product">开始我的出海项目 →</button><button class="btn sec" data-start="research">浏览产品研究</button></div><div class="v2-grid"><article class="card"><h3>01 看懂产品</h3><p>16 款中国品牌吸尘产品，保留功率、容积、基站与地区版的证据差异。</p><button class="text-button" data-start="research">打开研究档案 →</button></article><article class="card"><h3>02 核对市场</h3><p>登记产品与目的地，逐项补齐事实，再看法规条件、HS 候选和税费分项。</p><button class="text-button" data-start="product">登记项目 →</button></article><article class="card"><h3>03 跟进变化</h3><p>地图筛选政策新闻，选择与项目有关的线索，交给千问分析并形成报告。</p><button class="text-button" data-start="news">打开新闻雷达 →</button></article></div><article class="card"><h2>第一次使用，按这条路线走</h2><ol><li>建立项目，填写目的地和真实出口款参数；不确定的字段留空。</li><li>运行合规初筛，补齐追问，阅读所依据的官方来源。</li><li>选择 HS 候选，填写交易资料并复算已覆盖税费。</li><li>在新闻雷达中选择线索，生成千问分析任务并导入真实回复。</li><li>核对综合报告、未决问题和证据，再打印或导出。</li></ol><p>新闻关注级别、产品研究中的 HS 方向和法定准入结论各有不同依据，不应相互替代。</p></article></section><section class="view" id="view-research"><div class="hero"><div><p class="eyebrow">产品研究 / 证据先行</p><h1>中国品牌真空吸尘产品</h1><p>16 个型号，5 类结构。按字段保留地区和核验信息；未知参数不自动填补。</p></div></div><div class="card"><label>检索型号或品牌<input id="v2-query" placeholder="品牌、型号、市场"></label><label>产品类型<select id="v2-category"><option value="">全部类型</option><option value="1">罐式</option><option value="2">立式／杆式</option><option value="3">手持式</option><option value="4">干湿两用</option><option value="5">扫地／扫拖机器人</option></select></label><a href="research/中国品牌真空吸尘产品与出海研究.html" target="_blank" rel="noopener">阅读完整研究与参数来源 ↗</a></div><div id="v2-products" class="v2-grid"></div></section><section class="view" id="view-documents"><div class="hero"><h1>新加坡政策原文档案</h1></div><div class="banner warn">归档保留原始 PDF 字节与版本标记，不表示法律全文已全部转为可执行规则；适用范围、最新修订及税费条件仍需复核。</div><div id="v2-documents" class="v2-grid"></div></section>
+    <!-- 1 项目与产品 -->
+    <section class="view on" id="view-product" aria-label="项目与产品">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">出海合规准备 · 第一步</p>
+          <h1>登记项目、目的地与产品</h1>
+          <p class="lead" id="heroLead">先选好「产品 × 目的地」，系统只追问影响当前判断的关键事实；案例资料可一键带入。</p>
+        </div>
+        <div class="hero-status" id="heroStatus"></div>
+      </div>
+
+      <details class="card case-box" id="companyQuick">
+        <summary><b>从企业案例带入</b><em>可选 · 小熊电器 / 石头科技公开研究档案</em></summary>
+        <div class="banner warn">案例档案来自公开官网与披露文件：国内在售型号不能自动当作出口型号；研究路线不等于已实现的出口事实。</div>
+        <div id="companyList"></div>
+      </details>
+
+      <div class="card">
+        <h3>① 项目与目的地</h3>
+        <div class="fields">
+          <label class="f">项目名称<input id="pName" maxlength="60" placeholder="例如：小熊电饭煲马来西亚项目"></label>
+          <label class="f">企业名称<input id="pCompany" maxlength="60" placeholder="来自企业档案或自行填写"></label>
+          <label class="f">投放市场 / 首次供应日期<input type="date" id="pPlacingDate"></label>
+          <label class="f">进口 / 申报日期（税费用）<input type="date" id="pImportDate"></label>
+          <label class="f">供应链角色
+            <select id="pRole">
+              <option value="">请选择 / 不确定</option>
+              <option value="manufacturer">制造商（中国主体）</option>
+              <option value="importer">进口商</option>
+              <option value="authorised_representative">授权代表</option>
+              <option value="distributor">经销商</option>
+              <option value="marketplace">在线市场平台</option>
+              <option value="seller">卖家</option>
+            </select>
+          </label>
+          <label class="f">目的地市场<select id="pMarket"></select></label>
+        </div>
+        <p class="subhint" id="marketNote"></p>
+        <div id="bizFacts" class="fields"></div>
+      </div>
+
+      <div class="card">
+        <h3>② 产品品类</h3>
+        <div class="chip-select" id="groupChips"></div>
+        <div class="sub-grid" id="subList"></div>
+        <p class="subhint" id="subNote"></p>
+      </div>
+
+      <div class="card">
+        <h3>③ 关键事实 <em class="subhint" id="keyFactsHint"></em></h3>
+        <p class="subhint">只列出<b>影响当前目的地判断</b>的问题（由规则引擎实时反推）。回答后自动重算；已答项折叠。</p>
+        <div id="keyFacts"></div>
+        <details class="box">
+          <summary>更多产品参数（选填，不影响当前目的地的判断）</summary>
+          <div id="moreFacts"></div>
+        </details>
+      </div>
+
+      <div class="step-foot">
+        <span class="subhint" id="step1Summary"></span>
+        <button class="btn" id="btnNext1" type="button">下一步：合规初筛 →</button>
+      </div>
+    </section>
+
+    <!-- 2 合规初筛 -->
+    <section class="view" id="view-compliance" aria-label="法规与合规初筛">
+      <div class="page-title"><h1>合规初筛</h1><p class="subhint" id="complianceRunInfo">按当前输入实时计算，修改后回到第 1 步调整即可。</p></div>
+      <div id="complianceResult"></div>
+      <div class="step-foot">
+        <button class="btn sec" id="btnBack1" type="button">← 返回修改</button>
+        <button class="btn" id="btnNext2" type="button">下一步：HS 与税费 →</button>
+      </div>
+    </section>
+
+    <!-- 3 HS 与税费 -->
+    <section class="view" id="view-tax" aria-label="HS 与税费">
+      <div class="page-title"><h1>HS 候选与税费测算</h1></div>
+      <div id="taxBody"></div>
+      <div class="step-foot">
+        <button class="btn sec" id="btnBack2" type="button">← 返回</button>
+        <button class="btn" id="btnNext3" type="button">下一步：新闻雷达 →</button>
+      </div>
+    </section>
+
+    <!-- 4 新闻雷达 -->
+    <section class="view" id="view-news" aria-label="政策与新闻雷达">
+      <div class="page-title"><h1>政策与新闻雷达 <em class="tag">可选</em></h1></div>
+      <div id="newsBody"></div>
+      <div class="step-foot">
+        <button class="btn sec" id="btnBack3" type="button">← 返回</button>
+        <button class="btn" id="btnNext4" type="button">下一步：千问辅助建议 →</button>
+      </div>
+    </section>
+
+    <!-- 5 千问辅助建议 -->
+    <section class="view" id="view-qianwen" aria-label="千问辅助建议">
+      <div class="page-title"><h1>千问辅助建议</h1></div>
+      <div id="qianwenBody"></div>
+      <div class="step-foot">
+        <button class="btn sec" id="btnBack4" type="button">← 返回</button>
+        <button class="btn" id="btnNext5" type="button">下一步：综合报告 →</button>
+      </div>
+    </section>
+
+    <!-- 6 综合报告 -->
+    <section class="view" id="view-report" aria-label="综合报告">
+      <div class="page-title">
+        <h1>综合报告</h1>
+        <div class="no-print toolbar">
+          <button class="btn sm" id="btnPrint" type="button">打印 / 导出 PDF</button>
+          <button class="btn sec sm" id="btnExportJson" type="button">导出项目 JSON</button>
+          <button class="btn sec sm" id="btnSaveSnapshot" type="button">保存报告快照</button>
+        </div>
+      </div>
+      <p class="subhint no-print" id="reportHint"></p>
+      <div id="reportBody"></div>
+    </section>
+
+    <!-- 数据说明 -->
+    <section class="view" id="view-about" aria-label="数据说明">
+      <div class="page-title"><h1>数据说明</h1></div>
+      <div id="aboutBody"></div>
+      <div class="step-foot"><button class="btn sec" id="btnBackAbout" type="button">← 返回流程</button></div>
+    </section>
+  </main>
+</div>
+
+<footer class="footer no-print">
+  远见·企业出海助手（静态版）。本工具用于合规准备与资料组织：规则匹配、HS 候选、税费分项均不构成正式合规、认证、法律、税务、原产资格或海关归类结论；关键条件不完整时完整结论保持为空。
+</footer>
+
+<div class="toast-wrap" id="toastWrap" aria-live="polite"></div>
+
+<script src="data/vo-data.js"></script>
+<script src="data/news.js"></script>
+<script src="js/engine.js"></script>
+<script src="data/research-v2.js"></script><script src="js/app.js"></script>
+</body>
+</html>

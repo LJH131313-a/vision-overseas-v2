@@ -1,0 +1,50 @@
+name: 更新新闻快照
+
+# 定时更新（非实时监控）：北京时间约 09:17 与 17:17（UTC 01:17 / 09:17）
+# 手动运行：仓库 Actions 页选择本工作流 → Run workflow
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/update-news.yml
+      - tools/collect_news.py
+      - news/feeds.json
+  schedule:
+    - cron: '17 1 * * *'
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: true
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 采集并合并新闻快照
+        run: python tools/collect_news.py
+
+      - name: 提交并推送快照
+        run: |
+          git config user.name "vision-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/news.js
+          if git diff --cached --quiet; then
+            echo "快照无变化，跳过提交。"
+          else
+            git commit -m "chore(news): 新闻快照更新 $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

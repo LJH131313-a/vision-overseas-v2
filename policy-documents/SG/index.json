@@ -1,0 +1,42 @@
+[
+  {
+    "path": "policy-documents/SG/SG-CPSR-consolidated-20250701.pdf",
+    "title": "Consumer Protection (Safety Requirements) Regulations",
+    "official_reference": "https://sso.agc.gov.sg/SL/CPTDSRA1975-RG1",
+    "version_marker": "合并文本标注自2025-07-01起生效",
+    "size_bytes": 208521,
+    "sha256": "5173a1d89ff4aa3dde6c903d4a94e81fd1e8f5e7d29c4cb0c125c1ed31f939ab",
+    "provenance": "用户于2026-11-08上传；原字节保留，仅规范文件名",
+    "verification": "已检查正文版本标记；未重新从官方站点下载比对哈希；尚未逐条接入网页规则"
+  },
+  {
+    "path": "policy-documents/SG/SG-CGSR-consolidated-20250701.pdf",
+    "title": "Consumer Protection (Consumer Goods Safety Requirements) Regulations 2011",
+    "official_reference": "https://sso.agc.gov.sg/SL/CPTDSRA1975-S113-2011",
+    "version_marker": "合并文本标注自2025-07-01起生效",
+    "size_bytes": 102078,
+    "sha256": "5035e9732810375bab983f56af62a88fd903898da11502d7a89ce1730ab533fa",
+    "provenance": "用户于2026-11-08上传；原字节保留，仅规范文件名",
+    "verification": "已检查正文版本标记；未重新从官方站点下载比对哈希；尚未逐条接入网页规则"
+  },
+  {
+    "path": "policy-documents/SG/SG-Incidentally-Supplied-Batteries-Order-2025Ed.pdf",
+    "title": "Resource Sustainability (Exemption for Incidentally Supplied Batteries) Order 2019",
+    "official_reference": "https://sso.agc.gov.sg/SL/RSA2019-OR1",
+    "version_marker": "2025修订版；原施行日期2020-01-01",
+    "size_bytes": 80920,
+    "sha256": "43fbd8b467a0cd332ea5c2cd920f13f0c3ff080410c3d1ee0762ff66dbed8975",
+    "provenance": "用户于2026-11-08上传；原字节保留，仅规范文件名",
+    "verification": "已检查正文版本标记；未重新从官方站点下载比对哈希；尚未逐条接入网页规则"
+  },
+  {
+    "path": "policy-documents/SG/SG-GST-Act-consolidated-20261104.pdf",
+    "title": "Goods and Services Tax Act 1993",
+    "official_reference": "https://sso.agc.gov.sg/Act/GSTA1993",
+    "version_marker": "合并文本标注自2026-11-04起生效",
+    "size_bytes": 1085524,
+    "sha256": "92261d02f5ec28357d10afaa6a6a4015acd9d2e5872059487c94e989f13e6ed5",
+    "provenance": "用户于2026-11-08上传；原字节保留，仅规范文件名",
+    "verification": "已检查正文版本标记；未重新从官方站点下载比对哈希；尚未逐条接入网页规则"
+  }
+]

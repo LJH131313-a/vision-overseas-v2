@@ -1,0 +1,1 @@
+{"name":"vision-overseas-v2","private":true,"version":"2.0.0","devDependencies":{"jsdom":"29.1.1"},"scripts":{"test":"node tests/engine.test.mjs && node tests/tax-ui-regression.cjs && node tests/v2-integration.cjs && node tests/static-assets.test.mjs"}}

@@ -1,0 +1,68 @@
+[
+  {
+    "market": "欧盟",
+    "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
+    "url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
+    "products": "小家电与跨境经营政策"
+  },
+  {
+    "market": "英国",
+    "name": "英国 GOV.UK 政府更新（官方 feed）",
+    "url": "https://www.gov.uk/government/feed",
+    "products": "小家电与跨境经营政策"
+  },
+  {
+    "market": "美国",
+    "name": "美国 Federal Register（官方 RSS）",
+    "url": "https://www.federalregister.gov/api/v1/documents.rss",
+    "products": "小家电与跨境经营政策"
+  },
+  {
+    "market": "加拿大",
+    "name": "加拿大政府新闻 API（官方 Atom）",
+    "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?sort=publishedDate&orderBy=desc&pick=100&format=atom",
+    "products": "小家电与跨境经营政策"
+  },
+  {
+    "market": "中国",
+    "name": "中国政府网国务院信息（RSS）",
+    "url": "https://www.gov.cn/pushinfo/v150203/rss.xml",
+    "products": "跨境经营、贸易与政策信息"
+  },
+  {
+    "market": "巴西",
+    "name": "巴西政府最新新闻（官方 Atom）",
+    "url": "https://www.gov.br/pt-br/noticias/ultimas-noticias/ultimas-noticias/RSS",
+    "products": "贸易、消费与市场政策"
+  },
+  {
+    "market": "南非",
+    "name": "南非科技与创新部（官方 RSS）",
+    "url": "https://www.dsti.gov.za/rss.xml",
+    "products": "产业、技术与创新政策"
+  },
+  {
+    "market": "智利",
+    "name": "智利税务局 SII 新闻（官方 RSS）",
+    "url": "https://www.sii.cl/pagina/actualizada/noticias/rss/siinot_rss.xml",
+    "products": "税务与企业经营政策"
+  },
+  {
+    "market": "印度",
+    "name": "印度政府新闻信息局 PIB 新闻 RSS",
+    "url": "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=1",
+    "products": "政府政策与商业动态"
+  },
+  {
+    "market": "印度",
+    "name": "印度税务局通告 RSS",
+    "url": "https://wm.incometaxindia.gov.in/notification-rss-feed/-/asset_publisher/bxhj/rss",
+    "products": "税务与经营合规"
+  },
+  {
+    "market": "哈萨克斯坦",
+    "name": "哈萨克斯坦国家银行英文新闻 RSS",
+    "url": "https://nationalbank.kz/rss_news_english.xml",
+    "products": "经济与市场政策"
+  }
+]

@@ -1,0 +1,52 @@
+name: 部署网站到 GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_run:
+    workflows: ['更新新闻快照']
+    types: [completed]
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 检出最新发布分支
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 验证规则与静态资源
+        run: |
+          node tests/engine.test.mjs
+          node tests/tax-ui-regression.cjs
+          node tests/static-assets.test.mjs
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 准备公开网站文件
+        run: |
+          mkdir -p _site
+          cp index.html favicon.svg _site/
+          cp -R css js data modules research policy-documents _site/
+          touch _site/.nojekyll
+      - name: 上传网站文件
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

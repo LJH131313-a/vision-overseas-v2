@@ -1,90 +1,91 @@
 {
  "meta": {
-  "exportedAt": "2026-11-07T15:41:04.718640+00:00",
+  "exportedAt": "2026-11-08T04:37:00.055709+00:00",
+  "lastAttemptAt": "2026-11-08T04:37:00.055709+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 9,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 2,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-07T15:41:04.718640+00:00"
+    "fetched_at": "2026-11-08T04:37:00.055709+00:00"
    }
   ],
   "allFailed": false,
   "snapshotNote": "定时采集快照；来源为政府官方 RSS/Atom 公告。",
   "feedsConfigured": 11,
   "maxItems": 1200,
-  "maxAgeDays": 240
+  "maxAgeDays": 730
  },
  "items": [
   {
@@ -212,6 +213,20 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "40a8f09f45561a91",
+   "market": "英国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-07T23:45:00+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Customs Declaration Service: service availability and issues",
+   "summary": "Check the availability and any issues affecting the Customs Declaration Service.",
+   "impact": "英国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
+   "verified": "待核验"
   },
   {
    "id": "6cc6a019c1ca1dcf",

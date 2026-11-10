@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-10T08:25:30.389878+00:00",
-  "lastAttemptAt": "2026-11-10T08:25:30.389878+00:00",
+  "exportedAt": "2026-11-10T17:02:04.785612+00:00",
+  "lastAttemptAt": "2026-11-10T17:02:04.785612+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
-    "count": 1,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "count": 0,
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 4,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-10T08:25:30.389878+00:00"
+    "fetched_at": "2026-11-10T17:02:04.785612+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,48 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "508d31e0822ef782",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-10T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Unemployment Insurance Program National Minimum Weekly Work Search Requirements",
+   "summary": "The U.S. Department of Labor (Department), through the Employment and Training Administration (ETA), is proposing to amend 20 CFR part 604 both to reflect a 2012 update in Federal law in which Congress, by amending section 303(a) of the Social Security Act (SSA), established a Federal work search requirement; and to establish a national minimum weekly work search requirement standard for the Federal-State unemployment compensation (UC) program. This proposed rule would mandate, among other things, that States require individuals claiming UC to complete at least five qualifying work search activities or, where applicable, meet State-adopted points-based system requirements amounting to five qualifying activities or satisfy equivalent labor force attachment criteria, each week for which UC i",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22903/unemployment-insurance-program-national-minimum-weekly-work-search-requirements",
+   "verified": "待核验"
+  },
+  {
+   "id": "b507a5c826d9d7b5",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-10T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Air Plan Approval; Michigan; Determination of Attainment by the Attainment Date for the 2015 Ozone Standards",
+   "summary": "The U.S. Environmental Protection Agency (EPA) is determining under the Clean Air Act (CAA) that the Detroit, Michigan Moderate nonattainment area (&quot;Detroit area&quot; or &quot;area&quot;) attained the 2015 ozone National Ambient Air Quality Standards (NAAQS) by the applicable attainment date. This determination relies on the EPA&#39;s concurrence on an exceptional events request submitted by the Michigan Department of Environment, Great Lakes, and Energy (EGLE) on February 19, 2026, and concurred on by the EPA on March 24, 2026. Therefore, the EPA is taking final agency action on Michigan&#39;s exceptional events request. This action fulfills the EPA&#39;s statutory obligation to determine whether the Detroit area attained the 2015 ozone NAAQS by the Moderate attainment date of Augus",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22887/air-plan-approval-michigan-determination-of-attainment-by-the-attainment-date-for-the-2015-ozone",
+   "verified": "待核验"
+  },
+  {
+   "id": "05dc57af9e65eedb",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-10T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Information Reporting Regarding Qualified Opportunity Zones and Updated Qualified Opportunity Fund Certification and Decertification Procedures; Correction",
+   "summary": "This document contains corrections to the proposed regulations (REG-116506-25), published in the Federal Register on September 11, 2026. These proposed regulations would implement new statutory requirements for qualified opportunity funds to file information returns with the IRS and furnish statements to investors who dispose of investments in those entities and for qualified opportunity zone businesses to furnish statements to qualified opportunity funds that hold interests in them.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/10/2026-22859/information-reporting-regarding-qualified-opportunity-zones-and-updated-qualified-opportunity-fund",
+   "verified": "待核验"
   },
   {
    "id": "241db5af64b54ccb",

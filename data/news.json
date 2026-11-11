@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-11T07:44:15.921944+00:00",
-  "lastAttemptAt": "2026-11-11T07:44:15.921944+00:00",
+  "exportedAt": "2026-11-11T17:06:46.132403+00:00",
+  "lastAttemptAt": "2026-11-11T17:06:46.132403+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 0,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "count": 1,
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
-    "count": 4,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "count": 5,
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T07:44:15.921944+00:00"
+    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,76 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "3aa14d7fb9d46ae6",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-12T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "AP1000 Design Certification Renewal",
+   "summary": "",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/12/C1-2026-21030/ap1000-design-certification-renewal",
+   "verified": "待核验"
+  },
+  {
+   "id": "6018c09a87836160",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-12T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Plant Variety Protection Office: Notice of Request for Extension of a Currently Approved Information Collection",
+   "summary": "In accordance with the Paperwork Reduction Act of 1995, this notice announces the Agricultural Marketing Service&#39;s (AMS) intention to request approval from the Office of Management and Budget for an extension of the currently approved information collection &quot;Application for Plant Variety Protection Certification and Objective Description of Variety.&quot;",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23030/plant-variety-protection-office-notice-of-request-for-extension-of-a-currently-approved-information",
+   "verified": "待核验"
+  },
+  {
+   "id": "bc519da96a2f1545",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-12T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Approval and Promulgation of Air Quality Implementation Plans; Michigan; Withdrawal of the Federal Implementation Plan for the Detroit Sulfur Dioxide Area",
+   "summary": "The U.S. Environmental Protection Agency (EPA) is proposing to withdraw the Federal Implementation Plan (FIP), promulgated on October 12, 2022 (the &quot;2022 FIP&quot;), for attaining the 2010 1-hour primary sulfur dioxide (SO&lt;INF&gt;2&lt;/INF&gt;) National Ambient Air Quality Standard (NAAQS) in the Detroit area. On May 19, 2025, the EPA approved a revision to Michigan&#39;s State Implementation Plan (SIP) for attaining the 2010 1-hour primary SO&lt;INF&gt;2&lt;/INF&gt; NAAQS in the Detroit area, rendering the 2022 FIP duplicative. The EPA is proposing this action pursuant to Clean Air Act (CAA) section 110.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23026/approval-and-promulgation-of-air-quality-implementation-plans-michigan-withdrawal-of-the-federal",
+   "verified": "待核验"
+  },
+  {
+   "id": "b91011e8a4be1f47",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-12T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Safety Advisory 2026-02: Advanced Chemistry Battery Hazards in Passenger Railcar Operations",
+   "summary": "FRA is issuing Safety Advisory 2026-02 to alert the passenger rail industry to the severe safety risks associated with advanced chemistry batteries, such as lithium-ion battery (LiB) power sources, carried aboard passenger railcars within electric micromobility vehicles (EMVs). Recent full-scale testing shows that thermal runaway in these battery systems poses rapid and potentially catastrophic thermal, toxicological, and visibility hazards inside passenger railcars. This Safety Advisory recommends specific operational, training, and emergency planning and response mitigations to protect passengers and crew members.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/12/2026-23024/safety-advisory-2026-02-advanced-chemistry-battery-hazards-in-passenger-railcar-operations",
+   "verified": "待核验"
+  },
+  {
+   "id": "3edf83ba84dcce2c",
+   "market": "英国",
+   "category": "市场风向与行业热点",
+   "level": "中",
+   "date": "2026-11-11T17:00:10+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Government to stamp illegal deforestation out of UK supply chains",
+   "summary": "The government is stepping in to ensure everyday products sold in Great Britain do not drive illegal deforestation around the world.",
+   "impact": "英国关注建议：把报道当作需求线索：核对目标市场的销量、搜索、渠道数据与价格带，比较竞品后再调整选品、库存或营销，不凭单条新闻直接扩产。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/government/news/government-to-stamp-illegal-deforestation-out-of-uk-supply-chains",
+   "verified": "待核验"
   },
   {
    "id": "508d31e0822ef782",

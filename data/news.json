@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-11T17:06:46.132403+00:00",
-  "lastAttemptAt": "2026-11-11T17:06:46.132403+00:00",
+  "exportedAt": "2026-11-12T08:19:07.814574+00:00",
+  "lastAttemptAt": "2026-11-12T08:19:07.814574+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 1,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "count": 0,
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 5,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-11T17:06:46.132403+00:00"
+    "fetched_at": "2026-11-12T08:19:07.814574+00:00"
    }
   ],
   "allFailed": false,

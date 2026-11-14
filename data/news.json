@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-13T17:12:15.564488+00:00",
-  "lastAttemptAt": "2026-11-13T17:12:15.564488+00:00",
+  "exportedAt": "2026-11-14T07:36:37.311153+00:00",
+  "lastAttemptAt": "2026-11-14T07:36:37.311153+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 7,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 3,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-13T17:12:15.564488+00:00"
+    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,20 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "b10edb5d3a81a427",
+   "market": "加拿大",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-13T18:03:16+00:00",
+   "source": "加拿大政府新闻 API（官方 Atom）",
+   "title": "Parliamentary Secretary Naqvi highlights new action plan to protect workers from tariffs and strengthen Ontario industries",
+   "summary": "Canada and Ontario have world-class automotive and steel industries and vast deposits of critical minerals. It has the workers, expertise, and resources to drive Canada’s economic transformation. By working together, the federal and provincial governments are protecting good jobs, attracting investment, and ensuring Ontario’s industries remain competitive.",
+   "impact": "加拿大关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.canada.ca/en/global-affairs/news/2026/11/parliamentary-secretary-naqvi-highlights-new-action-plan-to-protect-workers-from-tariffs-and-strengthen-ontario-industries.html",
+   "verified": "待核验"
   },
   {
    "id": "68d28ffffc3a3506",

@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-14T07:36:37.311153+00:00",
-  "lastAttemptAt": "2026-11-14T07:36:37.311153+00:00",
+  "exportedAt": "2026-11-14T15:48:41.664667+00:00",
+  "lastAttemptAt": "2026-11-14T15:48:41.664667+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
-    "count": 7,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "count": 5,
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 3,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-14T07:36:37.311153+00:00"
+    "fetched_at": "2026-11-14T15:48:41.664667+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,62 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "420878bd91598d24",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-16T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Proposed Revision of Information Collection; Certification of Medical Necessity",
+   "summary": "The Department of Labor (DOL) is soliciting comments concerning a proposed extension for the authority to conduct the information collection request (ICR) titled, &quot;Certificate of Medical Necessity&quot;. This comment request is part of continuing Departmental efforts to reduce paperwork and respondent burden in accordance with the Paperwork Reduction Act of 1995 (PRA).",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23294/proposed-revision-of-information-collection-certification-of-medical-necessity",
+   "verified": "待核验"
+  },
+  {
+   "id": "980e12bf8bc18b5e",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-16T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Certain Spectral Flow Cytometry Systems and Components Thereof; Notice of Institution of Investigation",
+   "summary": "Notice is hereby given that a complaint was filed with the U.S. International Trade Commission on October 8, 2026, under section 337 of the Tariff Act of 1930, as amended, on behalf of Cytek Biosciences, Inc. of Fremont, California. A supplement to the complaint was filed on October 26, 2026. The complaint, as supplemented, alleges violations of section 337 based upon the importation into the United States, the sale for importation, and the sale within the United States after importation of certain spectral flow cytometry systems and components thereof by reason of the infringement of certain claims of U.S. Patent No. 12,754,128 (&quot;the &#39;128 patent&quot;); U.S. Patent No. 12,487,167 (&quot;the &#39;167 patent&quot;); and U.S. Patent No. 10,739,245 (&quot;the &#39;245 patent&quot;). ",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23254/certain-spectral-flow-cytometry-systems-and-components-thereof-notice-of-institution-of",
+   "verified": "待核验"
+  },
+  {
+   "id": "7b853606f21b59af",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-16T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Air Plan Approval; AK; Fairbanks PM2.5 Boundary Redesignation and Clean Data Determination",
+   "summary": "The Environmental Protection Agency (EPA) is proposing to approve a request from Alaska to revise the boundary designation of the existing Fairbanks North Star Borough nonattainment area for the 2006 primary 24-hour fine particulate matter (PM&lt;INF&gt;2.5&lt;/INF&gt;) National Ambient Air Quality Standard (NAAQS). The EPA is proposing to split the existing nonattainment area into two distinct nonattainment areas, an area covering Fairbanks and the Goldstream Valley, and an area covering North Pole. The proposed new areas cover the same geographic area as the existing area. The EPA is also proposing to issue a clean data determination (CDD), for the proposed Fairbanks and Goldstream Valley area (&quot;proposed Fairbanks nonattainment area&quot;) based on a determination that the area is a",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23235/air-plan-approval-ak-fairbanks-pm25-boundary-redesignation-and-clean-data-determination",
+   "verified": "待核验"
+  },
+  {
+   "id": "f774316ef1034b54",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-16T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Agency Information Collection Activities; Extension of Collection; Comment Request; Contests, Challenges, and Awards",
+   "summary": "As required by the Paperwork Reduction Act of 1995 (PRA), the Consumer Product Safety Commission (CPSC or Commission) requests comments on a proposed extension of approval of a generic collection of information for CPSC-sponsored contests, challenges, and awards. The Office of Management and Budget (OMB) previously approved the collection of information under control number 3041-0151. OMB&#39;s most recent extension of approval will expire on February 28, 2027. The Commission will consider all comments received in response to this notice before requesting an extension of this collection of information from OMB.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23199/agency-information-collection-activities-extension-of-collection-comment-request-contests-challenges",
+   "verified": "待核验"
   },
   {
    "id": "b10edb5d3a81a427",

@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-17T09:12:33.139840+00:00",
-  "lastAttemptAt": "2026-11-17T09:12:33.139840+00:00",
+  "exportedAt": "2026-11-17T18:33:30.270400+00:00",
+  "lastAttemptAt": "2026-11-17T18:33:30.270400+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 0,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "count": 1,
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 5,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 3,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-17T09:12:33.139840+00:00"
+    "fetched_at": "2026-11-17T18:33:30.270400+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,20 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "0facddecdd28f603",
+   "market": "英国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-17T17:03:00+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Accredited official statistics: Time Taken To Register a Death in NI, 2025",
+   "summary": "This report analyses the duration of the time taken to register a death in Northern Ireland, highlighting variations by cause of death and certification type.",
+   "impact": "英国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/government/statistics/announcements/time-taken-to-register-deaths-in-northern-ireland-2025",
+   "verified": "待核验"
   },
   {
    "id": "f734364d368c7e12",

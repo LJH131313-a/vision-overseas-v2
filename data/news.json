@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-19T18:16:21.710768+00:00",
-  "lastAttemptAt": "2026-11-19T18:16:21.710768+00:00",
+  "exportedAt": "2026-11-20T08:32:14.037007+00:00",
+  "lastAttemptAt": "2026-11-20T08:32:14.037007+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 0,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "count": 3,
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
-    "count": 10,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "count": 9,
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
-    "status": "error",
-    "error": "The read operation timed out",
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "status": "ok",
+    "count": 2,
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-19T18:16:21.710768+00:00"
+    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,132 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "77b0f82e02bb141c",
+   "market": "英国",
+   "category": "市场风向与行业热点",
+   "level": "中",
+   "date": "2026-11-20T07:00:02+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Accredited official statistics: Retail sales, Great Britain: October 2026 time series",
+   "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+   "impact": "英国关注建议：把报道当作需求线索：核对目标市场的销量、搜索、渠道数据与价格带，比较竞品后再调整选品、库存或营销，不凭单条新闻直接扩产。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/government/statistics/retail-sales-great-britain-october-2026-time-series",
+   "verified": "待核验"
+  },
+  {
+   "id": "9675d5fc06391f2c",
+   "market": "英国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-20T07:00:02+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Accredited official statistics: HMRC tax receipts and National Insurance contributions for the UK",
+   "summary": "Summary of HM Revenue and Customs' tax receipts, National Insurance contributions (NICs), and expenditure for the UK.",
+   "impact": "英国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/government/statistics/hmrc-tax-and-nics-receipts-for-the-uk",
+   "verified": "待核验"
+  },
+  {
+   "id": "cd68b894c24c09a9",
+   "market": "英国",
+   "category": "市场风向与行业热点",
+   "level": "中",
+   "date": "2026-11-20T07:00:02+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Accredited official statistics: Retail sales, Great Britain: October 2026",
+   "summary": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted.",
+   "impact": "英国关注建议：把报道当作需求线索：核对目标市场的销量、搜索、渠道数据与价格带，比较竞品后再调整选品、库存或营销，不凭单条新闻直接扩产。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/government/statistics/retail-sales-great-britain-october-2026",
+   "verified": "待核验"
+  },
+  {
+   "id": "500e17e4a32862f3",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Extension of Import Restrictions Imposed on Archaeological and Ethnological Material of Greece",
+   "summary": "This document amends U.S. Customs and Border Protection (CBP) regulations to reflect the extension of import restrictions on certain categories of archaeological and ecclesiastical ethnological material from the Hellenic Republic (Greece), which were originally published in CBP Decision (Dec.) 11-25 on December 1, 2011, and subsequently extended in 2016, and amended and extended in 2021 in CBP Dec. 21-16. The CBP regulations are being amended to reflect this further extension through November 21, 2031.",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23724/extension-of-import-restrictions-imposed-on-archaeological-and-ethnological-material-of-greece",
+   "verified": "待核验"
+  },
+  {
+   "id": "2a955b26a5a405f0",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Accreditation and Approval of Intertek USA, Inc. (Texas City, TX), as a Commercial Gauger and Laboratory",
+   "summary": "Notice is hereby given, pursuant to CBP regulations, that Intertek USA, Inc. (Texas City, TX), has been approved to gauge petroleum and certain petroleum products and accredited to test petroleum and certain petroleum products for customs purposes for the next three years as of October 28, 2025.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23722/accreditation-and-approval-of-intertek-usa-inc-texas-city-tx-as-a-commercial-gauger-and-laboratory",
+   "verified": "待核验"
+  },
+  {
+   "id": "1f6d62e8f745a982",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Information Collection Activities; Submission to the Office of Management and Budget (OMB) for Review and Approval; Comment Request; Streamlined Supply Chain Information Collection Request",
+   "summary": "",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23720/information-collection-activities-submission-to-the-office-of-management-and-budget-omb-for-review",
+   "verified": "待核验"
+  },
+  {
+   "id": "50b802a4767d8e33",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Air Plan Approval; Kentucky; Campbell-Clermont Area Maintenance Plan for the 2010 1-Hour SO2 NAAQS; Withdrawal of Direct Final Rule",
+   "summary": "Due to the receipt of adverse comments, the U.S Environmental Protection Agency (EPA or Agency) is withdrawing the September 25, 2026, direct final rule that approved the second 10-year maintenance plan for the Kentucky portion of the Campbell-Clermont, Kentucky-Ohio maintenance area (&quot;Campbell-Clermont, KY-OH Area&quot; or &quot;Area&quot;) for the 2010 1- hour sulfur dioxide (SO&lt;INF&gt;2&lt;/INF&gt;) National Ambient Air Quality Standards (NAAQS).",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23685/air-plan-approval-kentucky-campbell-clermont-area-maintenance-plan-for-the-2010-1-hour-so2-naaqs",
+   "verified": "待核验"
+  },
+  {
+   "id": "68b5a1b1fa575385",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Nevada Irrigation District; Notice of Reasonable Period of Time for Water Quality Certification Application",
+   "summary": "",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23673/nevada-irrigation-district-notice-of-reasonable-period-of-time-for-water-quality-certification",
+   "verified": "待核验"
+  },
+  {
+   "id": "86525b9bb206ba70",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-20T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Polytetramethylene Ether Glycol (PTMEG) From China, South Korea, Taiwan, and Vietnam; Scheduling of the Final Phase of Antidumping Duty Investigations",
+   "summary": "The Commission hereby gives notice of the scheduling of the final phase of antidumping duty investigation Nos. 731-TA-1782-1785 (Final) pursuant to the Tariff Act of 1930 to determine whether an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materially retarded, by reason of imports of PTMEG from China, South Korea, Taiwan, and Vietnam, provided for in subheadings 3907.29.00, 2932.11.00, and 3404.91.51 of the Harmonized Tariff Schedule of the United States, preliminarily determined by the Department of Commerce (&quot;Commerce&quot;) to be sold at less-than-fair- value.",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23624/polytetramethylene-ether-glycol-ptmeg-from-china-south-korea-taiwan-and-vietnam-scheduling-of-the",
+   "verified": "待核验"
   },
   {
    "id": "d93f2d266574a311",

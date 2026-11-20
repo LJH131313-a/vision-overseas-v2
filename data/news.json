@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-20T08:32:14.037007+00:00",
-  "lastAttemptAt": "2026-11-20T08:32:14.037007+00:00",
+  "exportedAt": "2026-11-20T17:47:33.848187+00:00",
+  "lastAttemptAt": "2026-11-20T17:47:33.848187+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 3,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "count": 1,
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
     "count": 9,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
-    "count": 2,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "count": 3,
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
     "error": "HTTP 404",
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T08:32:14.037007+00:00"
+    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,34 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "be811a75b36dcc2a",
+   "market": "英国",
+   "category": "标签与消费者信息",
+   "level": "中",
+   "date": "2026-11-20T16:38:23+00:00",
+   "source": "英国 GOV.UK 政府更新（官方 feed）",
+   "title": "Food labelling changes: preparing your business",
+   "summary": "How the UK-EU SPS Agreement will change the rules for food labelling in the UK.",
+   "impact": "英国关注建议：检查当地语言、警示、原产地、说明书和电商商品页要求，列出需要改版的包装与线上资料。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.gov.uk/guidance/food-labelling-changes-preparing-your-business",
+   "verified": "待核验"
+  },
+  {
+   "id": "8ac1ea94d45aa05d",
+   "market": "加拿大",
+   "category": "政策利好与市场机会",
+   "level": "中",
+   "date": "2026-11-20T14:15:28+00:00",
+   "source": "加拿大政府新闻 API（官方 Atom）",
+   "title": "The Government of Canada, together with the Province of Ontario, invests in strengthening trade capacity and supply chain resilience through the Port of Sault Ste. Marie",
+   "summary": "Today, the Honourable Steven MacKinnon, Minister of Transport and Leader of the Government in the House of Commons, announced an investment of up to $125 million through the Trade Diversification Corridors Fund to support the development of the Port of Sault Ste. Marie, led by the Hamilton-Oshawa Port Authority. This investment will fund a series of improvements to unlock the Port's potential as a key transportation and trade hub, increasing its cargo-handling capacity to more than 3.5 million metric tonnes annually by 2031, a three-fold increase over current volumes. The project is expected to create 2,150 direct and 2,600 indirect jobs while strengthening supply chains and supporting economic growth across Northern Ontario and beyond.",
+   "impact": "加拿大关注建议：确认政策面向的行业、地区、企业资格、支持方式和申请期限，再评估小家电项目能否申报或合作。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.canada.ca/en/transport-canada/news/2026/11/the-government-of-canada-together-with-the-province-of-ontario-invests-in-strengthening-trade-capacity-and-supply-chain-resilience-through-the-port.html",
+   "verified": "待核验"
   },
   {
    "id": "77b0f82e02bb141c",

@@ -1,84 +1,84 @@
 {
  "meta": {
-  "exportedAt": "2026-11-20T17:47:33.848187+00:00",
-  "lastAttemptAt": "2026-11-20T17:47:33.848187+00:00",
+  "exportedAt": "2026-11-21T08:16:27.399512+00:00",
+  "lastAttemptAt": "2026-11-21T08:16:27.399512+00:00",
   "sources": [
    {
     "market": "欧盟",
     "name": "欧盟委员会 Press Corner（官方 RSS，英文）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "英国",
     "name": "英国 GOV.UK 政府更新（官方 feed）",
     "status": "ok",
-    "count": 1,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "count": 0,
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "美国",
     "name": "美国 Federal Register（官方 RSS）",
     "status": "ok",
-    "count": 9,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "count": 16,
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "加拿大",
     "name": "加拿大政府新闻 API（官方 Atom）",
     "status": "ok",
     "count": 3,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "中国",
     "name": "中国政府网国务院信息（RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "巴西",
     "name": "巴西政府最新新闻（官方 Atom）",
     "status": "error",
-    "error": "HTTP 404",
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "error": "<urlopen error [Errno 104] Connection reset by peer>",
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "南非",
     "name": "南非科技与创新部（官方 RSS）",
     "status": "ok",
     "count": 1,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "智利",
     "name": "智利税务局 SII 新闻（官方 RSS）",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "印度",
     "name": "印度政府新闻信息局 PIB 新闻 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "印度",
     "name": "印度税务局通告 RSS",
     "status": "error",
     "error": "HTTP 403",
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    },
    {
     "market": "哈萨克斯坦",
     "name": "哈萨克斯坦国家银行英文新闻 RSS",
     "status": "ok",
     "count": 0,
-    "fetched_at": "2026-11-20T17:47:33.848187+00:00"
+    "fetched_at": "2026-11-21T08:16:27.399512+00:00"
    }
   ],
   "allFailed": false,
@@ -213,6 +213,160 @@
    "url": "https://www.dsti.gov.za/media/news/new-microscopes-boost-south-africa-s-advanced-research-capacity",
    "verified": "待核验",
    "id": "4c2fa0e7fa6ebb2d"
+  },
+  {
+   "id": "1e026ffe4556838a",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Cybersecurity Labeling for Internet of Things",
+   "summary": "In this document, the Public Safety and Homeland Security Bureau (Bureau) of the Federal Communications Commission (Commission or FCC) seeks comment on recommendations for the U.S. Cyber Trust Mark (USCTM) program, a voluntary cybersecurity labeling program for wireless consumer Internet of Things (IoT) products. The Bureau seeks comment on the design and placement of the FCC IoT Label, display of product registry information, certification renewal, post-market surveillance, and procedures for complaints, noncompliant products, and program administrators that withdraw or whose authority is terminated. These actions would support the establishment and effective administration of the USCTM program and provide consumers with accessible cybersecurity information about certified IoT products.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23812/cybersecurity-labeling-for-internet-of-things",
+   "verified": "待核验"
+  },
+  {
+   "id": "39c5138c32fb0565",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Magnesia Carbon Bricks From China and Mexico; Scheduling of Expedited Five-Year Reviews",
+   "summary": "The Commission hereby gives notice of the scheduling of expedited reviews pursuant to the Tariff Act of 1930 (&quot;the Act&quot;) to determine whether revocation of the countervailing duty order on magnesia carbon bricks from China and the antidumping duty orders on magnesia carbon bricks from China and Mexico would be likely to lead to continuation or recurrence of material injury within a reasonably foreseeable time.",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23810/magnesia-carbon-bricks-from-china-and-mexico-scheduling-of-expedited-five-year-reviews",
+   "verified": "待核验"
+  },
+  {
+   "id": "fcbf4bbbd8ade591",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Extension of Import Restrictions Imposed on Archaeological and Ethnological Material of Egypt",
+   "summary": "This document amends U.S. Customs and Border Protection (CBP) regulations to reflect the extension of import restrictions on certain categories of archaeological and ethnological material from the Arab Republic of Egypt (Egypt), which were originally published in CBP Decision (CBP Dec.) 16-23, and subsequently extended and amended in CBP Dec. 21-17. The CBP regulations are being amended to reflect this further extension through November 30, 2031.",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23795/extension-of-import-restrictions-imposed-on-archaeological-and-ethnological-material-of-egypt",
+   "verified": "待核验"
+  },
+  {
+   "id": "288c1efc3b1c6998",
+   "market": "美国",
+   "category": "市场风向与行业热点",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "EPA Response to State Initial Designations for the 2024 Revised Secondary Annual Sulfur Dioxide National Ambient Air Quality Standard: Notice of Availability and Public Comment Period",
+   "summary": "The U.S. Environmental Protection Agency (EPA) is providing notice of the Agency&#39;s intended designations for the 2024 revised secondary annual Sulfur Dioxide (SO&lt;INF&gt;2&lt;/INF&gt;) National Ambient Air Quality Standard (NAAQS) under Clean Air Act (CAA) section 107(d). Details regarding these designations, as well as the EPA&#39;s responses to initial designations submitted by States (where applicable) are accessible via the Agency&#39;s website and public electronic docket. With this notice, the EPA is providing an opportunity for public comment on the intended designations during the comment period specified in the DATES section. The EPA sent notifications directly to applicable States, Tribes, and territories on or about November 18, 2026, and intends to move forward with final",
+   "impact": "美国关注建议：把报道当作需求线索：核对目标市场的销量、搜索、渠道数据与价格带，比较竞品后再调整选品、库存或营销，不凭单条新闻直接扩产。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23791/epa-response-to-state-initial-designations-for-the-2024-revised-secondary-annual-sulfur-dioxide",
+   "verified": "待核验"
+  },
+  {
+   "id": "d78fb5a61d7ac839",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Agency Information Collection Activities: Requests for Comments; Clearance of a Renewed Approval of Information Collection: Federal Aviation Regulation Part 119-Certification: Air Carriers and Commercial Operators",
+   "summary": "In accordance with the Paperwork Reduction Act of 1995, FAA invites public comments about our intention to request the Office of Management and Budget (OMB) approval to renew an information collection. The Federal Register Notice with a 60-day comment period soliciting comments on the following collection of information was published on September 11, 2026. The collection involves requirements necessary under parts 135, 121, and 125 to comply with Federal Aviation Regulation part 119--Certification: Air Carriers and Commercial Operators. The FAA will use the information it collects and reviews to ensure compliance and adherence to regulations and, if necessary, to take enforcement action on violators of the regulations.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23784/agency-information-collection-activities-requests-for-comments-clearance-of-a-renewed-approval-of",
+   "verified": "待核验"
+  },
+  {
+   "id": "50c054cb78c6b97b",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Agency Information Collection Activities; Comment Request Relating to Late Filing of Certification or Notices",
+   "summary": "In accordance with the Paperwork Reduction Act of 1995, the IRS is inviting comments on the information collection request outlined in this notice.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23782/agency-information-collection-activities-comment-request-relating-to-late-filing-of-certification-or",
+   "verified": "待核验"
+  },
+  {
+   "id": "908d62ed2c614b42",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Chronic Wasting Disease Herd Certification Program Standards",
+   "summary": "We are extending the comment period for a notice of availability of a revised version of the Chronic Wasting Disease (CWD) Herd Certification Program Standards. The CWD Program Standards provide guidance on how to meet CWD Herd Certification Program and interstate movement requirements. This action will allow interested persons additional time to prepare and submit comments.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23768/chronic-wasting-disease-herd-certification-program-standards",
+   "verified": "待核验"
+  },
+  {
+   "id": "98022f436a6a4d7f",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Agency Information Collection Activities; Individual Landholder's and Farm Operator's Certification and Reporting Forms for Acreage Limitation; Certification Summary Form, Reporting Summary Form for Acreage Limitation; Forms to Determine Compliance by Certain Landholders; 43 CFR Part 426 and 43 CFR Part 428",
+   "summary": "In accordance with the Paperwork Reduction Act of 1995, we, the Bureau of Reclamation, are proposing to renew three information collections without change.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23756/agency-information-collection-activities-individual-landholders-and-farm-operators-certification-and",
+   "verified": "待核验"
+  },
+  {
+   "id": "c5d0899f2854502f",
+   "market": "美国",
+   "category": "市场风向与行业热点",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Radiant Industries, Inc.; Special Nuclear Materials License Application for a Fuel Packing Facility; Environmental Assessment and Finding of No Significant Impact",
+   "summary": "The U.S. Nuclear Regulatory Commission (NRC) is issuing a finding of no significant impact (FONSI) and accompanying environmental assessment (EA) regarding the NRC&#39;s consideration of a license application from Radiant Industries, Inc. (Radiant). Radiant is requesting a special nuclear material license for a facility in Oak Ridge, Tennessee. If granted, the license would allow Radiant to receive tri-structural isotropic (TRISO) particle fuel for fueling the Kaleidos self-contained, 1-megawatt electric reactors. This phase of the planned operational activities would only include packaging TRISO compacts into monoliths. Based on the EA, the NRC staff has concluded that there will be no significant impacts to environmental resources from the requested license, and therefore, a FONSI is app",
+   "impact": "美国关注建议：把报道当作需求线索：核对目标市场的销量、搜索、渠道数据与价格带，比较竞品后再调整选品、库存或营销，不凭单条新闻直接扩产。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23754/radiant-industries-inc-special-nuclear-materials-license-application-for-a-fuel-packing-facility",
+   "verified": "待核验"
+  },
+  {
+   "id": "f76dd65ce57c10d6",
+   "market": "美国",
+   "category": "产品准入与安全",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Airworthiness Directives; ATR-GIE Avions de Transport Régional Airplanes",
+   "summary": "The FAA proposes to adopt a new airworthiness directive (AD) for all ATR-GIE Avions de Transport R[eacute]gional Model ATR42 and ATR72 airplanes. This proposed AD was prompted by a review of mooring loads that revealed that winds within the currently defined wind profiles could lead to loads exceeding the certification limits on the nose landing gear (NLG) and main landing gear (MLG) while the airplane is moored. This proposed AD would require revising the existing maintenance or inspection program, as applicable, to incorporate a revised maintenance procedure (MP) for mooring the airplane. The FAA is proposing this AD to address the unsafe condition on these products.",
+   "impact": "美国关注建议：核对涉及产品是否落入当地强制认证/测试范围，检查证书持有人、测试标准及生效日期；出货前确认型号和技术文件。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23752/airworthiness-directives-atr-gie-avions-de-transport-rgional-airplanes",
+   "verified": "待核验"
+  },
+  {
+   "id": "1a4aa6686fd60ff2",
+   "market": "美国",
+   "category": "贸易与海关",
+   "level": "中",
+   "date": "2026-11-23T05:00:00+00:00",
+   "source": "美国 Federal Register（官方 RSS）",
+   "title": "Plastic Balloons From China; Institution of Antidumping and Countervailing Duty Investigations and Scheduling of Preliminary Phase Investigations",
+   "summary": "The Commission hereby gives notice of the institution of investigations and commencement of preliminary phase countervailing duty and antidumping duty investigation Nos. 701-TA-812 and 731-TA-1814 (Preliminary) pursuant to the Tariff Act of 1930 to determine whether there is a reasonable indication that an industry in the United States is materially injured or threatened with material injury, or the establishment of an industry in the United States is materially retarded, by reason of imports of plastic balloons from China, provided for in subheadings 9503.00.00 and 9505.90.60 of the Harmonized Tariff Schedule of the United States, that are alleged to be sold in the United States at less than fair value and alleged to be subsidized by the Government of China. Unless the Department of Comme",
+   "impact": "美国关注建议：复核 HS 编码、关税/贸易救济、原产地规则、进口许可和清关文件，更新到岸成本及供应链方案。",
+   "products": "小家电与跨境经营政策",
+   "url": "https://www.federalregister.gov/documents/2026/11/23/2026-23751/plastic-balloons-from-china-institution-of-antidumping-and-countervailing-duty-investigations-and",
+   "verified": "待核验"
   },
   {
    "id": "be811a75b36dcc2a",
